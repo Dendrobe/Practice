@@ -1,6 +1,6 @@
---ÉùÃ÷±äÁ¿
+ï»¿--å£°æ˜å˜é‡
 __theArray = {}
---³õÊ¼»¯¾ØÕó
+--åˆå§‹åŒ–çŸ©é˜µ
 function create_Array(__number)
 	for i = 1, __number do
 		__theArray[i] = {}
@@ -9,7 +9,7 @@ function create_Array(__number)
 		end
 	end
 end
---´òÓ¡¾ØÕó
+--æ‰“å°çŸ©é˜µ
 function print_Array(__number)
 	local __string = ""
 	local k = 1
@@ -26,7 +26,7 @@ function print_Array(__number)
 		end
 	end
 end
---ÄÚÂİĞı¸³Öµ
+--å†…èºæ—‹èµ‹å€¼
 function inward_Spiral(__number)
 	local __i_min = 1
 	local __i_max = __number
@@ -74,7 +74,7 @@ function inward_Spiral(__number)
 
 	print_Array(__number)
 end
---½»»¥Ö÷Ìå
+--äº¤äº’ä¸»ä½“
 function main()
 	local __number = nil
 	repeat
@@ -85,5 +85,5 @@ function main()
 	inward_Spiral(__number)
 	--print_Array(__number)
 end
---¿ªÊ¼Ö´ĞĞ
+--å¼€å§‹æ‰§è¡Œ
 main()
